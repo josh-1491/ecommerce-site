@@ -1,5 +1,15 @@
 # React + Vite
 
+## Deploying on Render
+
+For a Render Web Service, use these commands:
+
+- Build Command: `npm ci && npm run build`
+- Start Command: `npm start`
+
+The start script serves the production build on Render's `PORT`. Locally, it
+defaults to port 4173.
+
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
 Currently, two official plugins are available:
